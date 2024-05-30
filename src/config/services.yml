@@ -5,7 +5,7 @@
     - name: 微信传输助手
       url: https://szfilehelper.weixin.qq.com/
       description: "文件传输"
-      icon: 
+      icon: "/nav/icon/default.gif"
     - name: 飞书网页版
       url: https://feishu.cn/messages
       description: "飞书网页版"
@@ -13,36 +13,81 @@
     - name: IT 工具箱
       url: https://www.anye.xyz/tools
       description: "IT 工具箱"
-      icon:
+      icon: "/nav/icon/default.gif"
     - name: 打字练习
       url: https://qwerty.anye.in/
       description: "打字练习"
-      icon:
+      icon: "/nav/icon/default.gif"
     - name: Video
       url: https://video.anye.in/
       description: "Video"
-      icon:
-- title: "AI"
-  id: "ai"
-  icon: "#wuguan"
+      icon: "/nav/icon/default.gif"
+- title: "云盘"
+  id: "pan"
+  icon: "fas fa-sm fa-play"
   services:
-    - name: 微信传输助手
-      url: https://szfilehelper.weixin.qq.com/
-      description: "文件传输"
-      icon: 
-    - name: 飞书网页版
-      url: https://feishu.cn/messages
-      description: "飞书网页版"
-      icon:
-    - name: IT 工具箱
-      url: https://www.anye.xyz/tools
-      description: "IT 工具箱"
-      icon:
-    - name: 打字练习
-      url: https://qwerty.anye.in/
-      description: "打字练习"
-      icon:
-    - name: Video
-      url: https://video.anye.in/
-      description: "Video"
-      icon:
+    - name: 阿里云盘
+      url: https://www.aliyundrive.com/
+      icon: "/nav/icon/default.gif"
+    - name: 百度网盘
+      url: https://pan.baidu.com/
+      icon: "/nav/icon/default.gif"
+    - name: 蓝奏云
+      url: https://pan.lanzouy.com/
+      icon: "/nav/icon/default.gif"
+    - name: 迅雷云盘
+      url: https://pan.xunlei.com/
+      icon: "/nav/icon/default.gif"
+    - name: OneDrive
+      url: https://onedrive.live.com/login/
+      icon: "/nav/icon/default.gif"
+    - name: 天翼云盘
+      url: https://cloud.189.cn/
+      icon: "/nav/icon/default.gif"
+    - name: UC网盘
+      url: https://drive.uc.cn/
+      icon: "/nav/icon/default.gif"
+- title: "邮箱"
+  id: "mail"
+  icon: "fas fa-sm fa-play"
+  services:
+    - name: QQ邮箱
+      url: https://mail.qq.com/
+      icon: "/nav/icon/default.gif"
+    - name: Gmail
+      url: https://gmail.com/
+      icon: "/nav/icon/default.gif"
+    - name: Outlook邮箱
+      url: https://outlook.live.com/mail/
+      icon: "/nav/icon/default.gif"
+    - name: 网易邮箱
+      url: https://mail.163.com/
+      icon: "/nav/icon/default.gif"
+    - name: 新浪邮箱
+      url: https://mail.sina.com.cn/
+      icon: "/nav/icon/default.gif"
+    - name: 阿里邮箱
+      url: https://www.ali-exmail.cn/Land/
+      icon: "/nav/icon/default.gif"
+- title: 购物
+  id: gouwu
+  icon: "fas fa-sm fa-play"
+  services:
+    - name: "识货"
+      url: "http://www.shihuo.cn/"
+      icon: "/nav/icon/default.gif"
+    - name: "京东"
+      url: "https://jd.com"
+      icon: "/nav/icon/default.gif"
+    - name: "淘宝"
+      url: "https://taobao.com"
+      icon: "/nav/icon/default.gif"
+    - name: "天猫"
+      url: "https://www.tmall.com/"
+      icon: "/nav/icon/default.gif"
+    - name: "华为商城"
+      url: "https://www.vmall.com/"
+      icon: "/nav/icon/default.gif"
+    - name: "小米商城"
+      url: "https://www.mi.com/shop"
+      icon: "/nav/icon/default.gif"

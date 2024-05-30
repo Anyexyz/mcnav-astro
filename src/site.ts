@@ -7,8 +7,8 @@ export const Site = {
     // headIcon: "https://cdn.anye.xyz/favicon.png",
     
     /* 本地图片配置方法, 注意这里的路径是相对于public目录的, 且需要加上配置的base路径 */
-     icon: "/nav/image/favicon.ico",
-     headIcon: "/nav/image/head.png",
+    icon: "/nav/image/favicon.ico",
+    headIcon: "/nav/image/head.png",
     icp: "",
     gongan: "",
 }

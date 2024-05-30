@@ -14,11 +14,13 @@
  - 备案号等
 
 3. 修改位于 [`src/config`](/src/config) 文件夹中的 `*.yml` 文件, 他们分别对应站点
- - `navbar.yml`: **导航栏** 配置
- - `search.yml`: **搜索引擎** 配置
- - `popular.yml`: **热门站点** 配置
- - `tools.yml`: **工具直达** 配置
- - `service.yml`: 各类导航配置
+ - `navbar.yml`: **导航栏** 配置    (不建议超过 5 个)
+ - `search.yml`: **搜索引擎** 配置  (不建议超过 7 个, 其中的 icon 可以在 [fontawesome](https://fontawesome.com/) 中获取)
+ - `popular.yml`: **热门站点** 配置 (不建议超过 2 个)
+ - `tools.yml`: **工具直达** 配置   (不建议超过 6 个, 其中的 icon 可以在 [fontawesome](https://fontawesome.com/) 中获取, 背景 color 可以自定义)
+ - `service.yml`: 各类导航配置(导航icon在 [fontawesome](https://fontawesome.com/) 中获取, services icon 填写图片链接)
+
+> 若使用本地图标，请将图标放置在 `public/icons` 文件夹中, 并在 `*.yml` 文件中填写相对路径, 且需要加上 base 配置
 
 
 # 致谢
