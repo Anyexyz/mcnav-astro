@@ -1,0 +1,48 @@
+- title: "常用导航"
+  id: "changyongdaohang"
+  icon: "fas fa-sm fa-play"
+  services:
+    - name: 微信传输助手
+      url: https://szfilehelper.weixin.qq.com/
+      description: "文件传输"
+      icon: 
+    - name: 飞书网页版
+      url: https://feishu.cn/messages
+      description: "飞书网页版"
+      icon: "/nav/icon/default.gif"
+    - name: IT 工具箱
+      url: https://www.anye.xyz/tools
+      description: "IT 工具箱"
+      icon:
+    - name: 打字练习
+      url: https://qwerty.anye.in/
+      description: "打字练习"
+      icon:
+    - name: Video
+      url: https://video.anye.in/
+      description: "Video"
+      icon:
+- title: "AI"
+  id: "ai"
+  icon: "#wuguan"
+  services:
+    - name: 微信传输助手
+      url: https://szfilehelper.weixin.qq.com/
+      description: "文件传输"
+      icon: 
+    - name: 飞书网页版
+      url: https://feishu.cn/messages
+      description: "飞书网页版"
+      icon:
+    - name: IT 工具箱
+      url: https://www.anye.xyz/tools
+      description: "IT 工具箱"
+      icon:
+    - name: 打字练习
+      url: https://qwerty.anye.in/
+      description: "打字练习"
+      icon:
+    - name: Video
+      url: https://video.anye.in/
+      description: "Video"
+      icon:

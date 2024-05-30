@@ -1,0 +1,31 @@
+---
+export interface Service {
+  name: string;
+  icon: string;
+  description: string;
+  url: string;
+}
+
+const { services } = Astro.props;
+---
+
+
+{
+    services.map((service: Service) => (
+        <div class="col-6 col-lg-3">
+            <div class="list-item block">
+                <a href={service.url} title={service.name} class="media w-36 rounded-circle">
+                <img src={service.icon} data-src="" class="media-content lazyload" />
+                </a>
+                <a href={service.url} target='_blank' title={service.name} class="list-content">
+                <div class="list-body">
+                    <div class="list-title text-md h-1x">{service.name}</div>
+                    <div class="list-desc text-xx text-muted mt-1">
+                    <div class="h-1x">{service.description}</div>
+                    </div>
+                </div>
+                </a>
+            </div>
+        </div>
+    ))
+}
