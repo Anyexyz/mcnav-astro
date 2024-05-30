@@ -8,6 +8,17 @@
 
 ![手机端](1717096500182.png)
 
+## 环境部署
+
+`pnpm install` 安装依赖
+
+`pnpm dev` 启动开发环境
+
+`pnpm build` 构建项目
+
+`pnpm preview` 预览项目
+
+
 ## 食用指南
 
 1. 首先修改 [`astro.config.mjs`](astro.config.mjs) 文件中的 `base` 参数, 指定 **站点根路径**, 本项目中默认为 `/nav`
